@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crypto Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="coin-ticker">
+            <span class="coin"> &nbsp;&nbsp;&nbsp;&nbsp; </span>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <div class="left-column">
+                <section id="about">
+                    <p>My name is Starfish, and I am deeply immersed in the world of cryptocurrency. With a background in giveaway hunting, airdrop chasing, node running, and DeFi exploration, I bring a diverse set of skills and experiences to the table. I first discovered the potential of cryptocurrency back in 2014 and have been actively involved ever since, continuously learning and adapting to the evolving landscape of the blockchain industry.</p>
+                    <p>I believe in the democratizing power of decentralized technologies and am passionate about exploring innovative solutions that have the potential to reshape traditional systems. Whether it's scouring the web for the latest airdrops or participating in node validation networks, I am always eager to contribute to the advancement of the crypto ecosystem.</p>
+                </section>
+
+                <section id="nodes">
+                    <h2><i class="fas fa-code"></i> Node Experience</h2>
+                    <ul class="node-list">
+                        <li>Dusk Network (ITN Phase 1) <i class="fas fa-check-circle"></i></li>
+                        <li>Taiko (Phase 5) <i class="fas fa-check-circle"></i></li>
+                        <li>Overnode (Phase 1) <i class="fas fa-check-circle"></i></li>
+                        <li>Koii Network <i class="fas fa-spinner"></i></li>
+                        <li>Gaga Node <i class="fas fa-check-circle"></i></li>
+                        <li>Meson Node <i class="fas fa-check-circle"></i></li>
+                        <li>Shardeum <i class="fas fa-spinner"></i></li>
+                        <li>BEVM <i class="fas fa-spinner"></i></li>
+                        <li>Dusk Network (ITN Phase 2) <i class="fas fa-spinner"></i></li>
+                    </ul>
+                </section>
+                
+        
+
+                <section id="skills">
+                    <h2><i class="fas fa-code"></i> Work Experience</h2>
+                    <ul>
+                        <li>Moderator at Indonesia's largest crypto community with 140,000+ members. </li>
+                        <li>Moderator at BSC Gemz. </li>
+                        <li> Collaboration Manager for a DAO. </li>
+                    </ul>
+                </section>
+            </div>
+
+            <div class="right-column">
+                <section id="projects">
+                    <h2><i class="fas fa-project-diagram"></i> Public Repo</h2>
+                    <div class="project">
+                        <h3>Winten</h3>
+                        <p>Windows 10 Installer for Ubuntu Server.</p>
+                        <a href="https://github.com/0xpH/winten" target="_blank">Repo Link</a>
+                        <p>
+                            <img src="https://img.shields.io/github/stars/0xpH/winten?style=flat-square" alt="GitHub Stars">
+                            <img src="https://img.shields.io/github/forks/0xpH/winten?style=flat-square" alt="GitHub Forks">
+                            <img src="https://img.shields.io/github/watchers/0xpH/winten?style=flat-square" alt="GitHub Watchers">
+                        </p>
+                    </div>
+                    <div class="project">
+                        <h3>C9-Docker-Compose</h3>
+                        <p>Deploy C9-IDE Inside Docker Containers.</p>
+                        <a href="https://github.com/starfrich/C9-Docker-Compose" target="_blank">Repo Link</a>
+                        <p>
+                            <img src="https://img.shields.io/github/stars/starfrich/C9-Docker-Compose?style=flat-square" alt="GitHub Stars">
+                            <img src="https://img.shields.io/github/forks/starfrich/C9-Docker-Compose?style=flat-square" alt="GitHub Forks">
+                            <img src="https://img.shields.io/github/watchers/starfrich/C9-Docker-Compose?style=flat-square" alt="GitHub Watchers">
+                        </p>
+                    </div>
+                    <div class="project">
+                        <h3>Docker Setup for BEVM Node</h3>
+                        <p>This script automates the setup process for running a BEVM node using Docker on your VPS.</p>
+                        <a href="https://github.com/starfrich/bevm-node" target="_blank">Repo Link</a>
+                        <p>
+                            <img src="https://img.shields.io/github/stars/starfrich/bevm-node?style=flat-square" alt="GitHub Stars">
+                            <img src="https://img.shields.io/github/forks/starfrich/bevm-node?style=flat-square" alt="GitHub Forks">
+                            <img src="https://img.shields.io/github/watchers/starfrich/bevm-node?style=flat-square" alt="GitHub Watchers">
+                            <span class="outdated-label">Outdated</span>
+                        </p>
+                    </div>
+                    <div class="project">
+                        <h3>Soon</h3>
+                        <p>Soon</p>
+                        <a href="https://github.com/starfrich/" target="_blank">Soon</a>
+                        <p>
+                            <img src="https://img.shields.io/github/stars/starfrich/?style=flat-square" alt="GitHub Stars">
+                            <img src="https://img.shields.io/github/forks/starfrich/?style=flat-square" alt="GitHub Forks">
+                            <img src="https://img.shields.io/github/watchers/starfrich/?style=flat-square" alt="GitHub Watchers">
+                        </p>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; <span id="currentYear"></span> Starfish. All rights reserved.</p>
+        <div class="social-links">
+            <a href="https://twitter.com/starfrich" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="https://t.me/starfishprerich" target="_blank"><i class="fab fa-telegram"></i></a>
+            <a href="https://github.com/starfrich" target="_blank"><i class="fab fa-github"></i></a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script>
+        var currentYear = new Date().getFullYear();
+        document.getElementById("currentYear").innerHTML = currentYear;
+        async function getCoinPrices() {
+            const coins = ['bitcoin', 'ethereum', 'tether', 'binance-coin', 'solana', 'ripple', 'doge', 'cardano', 'polkadot']; 
+            const response = await fetch(`https://api.coingecko.com/api/v3/simple/price?ids=${coins.join(',')}&vs_currencies=usd`);
+            const data = await response.json();
+            return data;
+        }
+
+        async function updateCoinPrices() {
+            const coinPrices = await getCoinPrices();
+            const coinTicker = document.querySelector('.coin-ticker');
+            coinTicker.innerHTML = ''; 
+
+            for (const coin in coinPrices) {
+                const price = coinPrices[coin].usd;
+                coinTicker.innerHTML += `<span class="coin">${coin.toUpperCase()}: $${price}</span>`;
+            }
+        }
+
+        updateCoinPrices();
+
+        setInterval(updateCoinPrices, 30000); 
+    </script>
+</body>
+</html>
